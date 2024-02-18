@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f7; /* Light green background */
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+
+  .container {
+    width: 100%;
+    max-width: 400px; /* Make forms smaller */
+  }
+
+  h2 {
+    color: #006a4e; /* Darker shade of green for headings */
+    text-align: center;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  input[type="email"], input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #register-form {
+    display: none;
+  }
+
+  .toggle-form {
+    color: #006a4e;
+    cursor: pointer;
+    text-align: center;
+    display: block; /* Make the toggle link block-level for centering */
+  }
+
+  #logout-button {
+    position: absolute; /* Position the logout button absolutely */
+    top: 20px; /* 20px from the top */
+    left: 20px; /* 20px from the left */
+    padding: 5px 10px; /* Smaller padding for a smaller button */
+    font-size: 0.8rem; /* Smaller font size */
+    width: 10%;
+}
